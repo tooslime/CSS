@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: #f00;
+    animation: example;
+    animation-duration: 15s;
+    animation-iteration-count: 3;
+}
+
+@keyframes example {
+    /* from {background-color: #f00;}
+    to {background-color: rgb(242, 255, 0);} */
+    0% {background-color: #f00; left:0px; top:0px;}
+    25% {background-color: #0f0; left:200px; top:0px;}
+    50% {background-color: #00f; left:200px; top:200px;}
+    75% {background-color: #b1c; left:0px; top:200px;}
+    100% {background-color: #f00; left:0px; top:0px;}
+}
